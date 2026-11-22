@@ -1,18 +1,26 @@
-# 💫 About Me:
-I'm currently studying
+# Hi, I'm Shubham 👋
 
+I'm a frontend developer in the making, focused on building fast, well-designed web interfaces with React and TypeScript. I also enjoy going low-level with C++ and WebAssembly.
 
-## 🌐 Socials:
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/_shubhparmar._) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/shubham-parmar-7791932b8) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:shubhamparmar713@gmil.com) 
+- 🔭 Currently building: [your current project]
+- 🌱 Currently learning: [e.g. advanced React patterns, animation, accessibility]
+- 📫 Reach me: [shubhamparmar713@gmail.com](mailto:shubhamparmar713@gmail.com)
 
-# 💻 Tech Stack:
-![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=shubham-parmar17&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=shubham-parmar17&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=shubham-parmar17&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+## Featured Projects
 
----
-[![](https://visitcount.itsvg.in/api?id=shubham-parmar17&icon=0&color=0)](https://visitcount.itsvg.in)
+- **[HeapScope](https://github.com/shubham-parmar17/heapscope)**: Interactive memory allocator lab with C++ allocators, WebAssembly benchmarks, and a React frontend.
+- **[Portfolio](https://github.com/shubham-parmar17/portfolio)**: My personal developer portfolio. [Live site](#)
+- **[Equipment Advanced](https://github.com/shubham-parmar17/equipment-advanced)**: [One line on what it does]
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+## Tech Stack
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![WebAssembly](https://img.shields.io/badge/WebAssembly-654FF0?style=for-the-badge&logo=webassembly&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+
+## Connect
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/shubham-parmar-7791932b8)
