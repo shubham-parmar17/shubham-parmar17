@@ -53,6 +53,12 @@ I'm a problem solver who enjoys breaking complex problems into simple, efficient
 | **[Portfolio](https://github.com/shubham-parmar17/portfolio)** | Personal developer portfolio | `JavaScript` |
 | **[Equipment Advanced](https://github.com/shubham-parmar17/equipment-advanced)** | [One line on what it does] | `JavaScript` |
 
+## 🎬 Algorithms in Motion
+
+<img src="assets/algo.svg" alt="Animated binary search visualization" width="100%" />
+
+<img src="assets/divider.svg" alt="" width="100%" />
+
 <img src="assets/divider.svg" alt="" width="100%" />
 
 ## 📫 Get in Touch
