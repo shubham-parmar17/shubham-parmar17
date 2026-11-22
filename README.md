@@ -13,7 +13,7 @@
 
 </div>
 
----
+<img src="assets/divider.svg" alt="" width="100%" />
 
 ## 👋 About Me
 
@@ -24,6 +24,8 @@ I'm a problem solver who enjoys breaking complex problems into simple, efficient
 - 🌱 **Currently:** [e.g. Graphs, Dynamic Programming]
 - 🌐 **Also exploring:** Web development with React
 
+<img src="assets/divider.svg" alt="" width="100%" />
+
 ## 🛠️ Tech Stack
 
 <div align="center">
@@ -32,12 +34,16 @@ I'm a problem solver who enjoys breaking complex problems into simple, efficient
 
 </div>
 
+<img src="assets/divider.svg" alt="" width="100%" />
+
 ## 🏆 Problem Solving
 
 | Platform | Profile | Progress |
 | :-- | :-- | :-- |
 | LeetCode | [your-profile](#) | [problems solved] |
 | Codeforces / CodeChef | [your-profile](#) | [rating, if any] |
+
+<img src="assets/divider.svg" alt="" width="100%" />
 
 ## 🚀 Featured Projects
 
@@ -46,6 +52,8 @@ I'm a problem solver who enjoys breaking complex problems into simple, efficient
 | **[HeapScope](https://github.com/shubham-parmar17/heapscope)** | Interactive memory allocator lab with C++ allocators, WebAssembly benchmarks, and a React frontend | `C++` `WebAssembly` `React` `TypeScript` |
 | **[Portfolio](https://github.com/shubham-parmar17/portfolio)** | Personal developer portfolio | `JavaScript` |
 | **[Equipment Advanced](https://github.com/shubham-parmar17/equipment-advanced)** | [One line on what it does] | `JavaScript` |
+
+<img src="assets/divider.svg" alt="" width="100%" />
 
 ## 📫 Get in Touch
 
