@@ -1,51 +1,54 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=Shubham%20Parmar&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Frontend%20Developer%20%C2%B7%20React%20%26%20TypeScript&descAlignY=58&descSize=18" alt="Shubham Parmar banner" />
+<img src="assets/banner.svg" alt="Shubham Parmar, Problem Solver" width="100%" />
 
 <a href="https://github.com/shubham-parmar17">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=38BDF8&center=true&vCenter=true&width=620&lines=Frontend+developer+in+the+making;Building+fast+interfaces+with+React+%26+TypeScript;Exploring+C%2B%2B+%2B+WebAssembly+for+fun" alt="Typing animation" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=38BDF8&center=true&vCenter=true&width=640&lines=Turning+complex+problems+into+clean+solutions;Algorithms+%26+Data+Structures;Writing+efficient%2C+well-structured+code" alt="Typing animation" />
 </a>
 
 <br/>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/shubham-parmar-7791932b8)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:shubhamparmar713@gmail.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-38BDF8?style=for-the-badge&logo=vercel&logoColor=white)](#)
 
 </div>
 
 ---
 
-## ⚡ About Me
+## 👋 About Me
 
-```ts
-const shubham = {
-  role: "Frontend Developer (in progress)",
-  focus: ["React", "TypeScript", "Modern UI & Animation"],
-  currentlyBuilding: "[your current project]",
-  currentlyLearning: "[e.g. advanced React patterns, accessibility]",
-  funFact: "I write memory allocators in C++ for fun",
-};
-```
+I'm a problem solver who enjoys breaking complex problems into simple, efficient solutions. My main focus right now is strengthening my foundations in **algorithms and data structures**, and I'm building on that with software projects and web development.
+
+- 🎯 **Focus:** Algorithms, Data Structures, Problem Solving
+- 💻 **Languages:** C++, Python, JavaScript, TypeScript
+- 🌱 **Currently:** [e.g. Graphs, Dynamic Programming]
+- 🌐 **Also exploring:** Web development with React
 
 ## 🛠️ Tech Stack
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=js,ts,react,html,css,cpp,py,git,github,vscode&theme=dark" alt="Tech stack" />
+<img src="https://skillicons.dev/icons?i=cpp,py,js,ts,react,git,github,vscode&theme=dark" alt="Tech stack" />
 
 </div>
 
+## 🏆 Problem Solving
+
+| Platform | Profile | Progress |
+| :-- | :-- | :-- |
+| LeetCode | [your-profile](#) | [problems solved] |
+| Codeforces / CodeChef | [your-profile](#) | [rating, if any] |
+
 ## 🚀 Featured Projects
 
-| Project | What it is | Stack |
+| Project | Description | Tech |
 | :-- | :-- | :-- |
-| 🧠 **[HeapScope](https://github.com/shubham-parmar17/heapscope)** | Interactive memory allocator lab with C++ allocators, WebAssembly benchmarks, and a React frontend | `C++` `WebAssembly` `React` `TypeScript` |
-| 🎨 **[Portfolio](https://github.com/shubham-parmar17/portfolio)** | My personal developer portfolio | `JavaScript` |
-| 🛠️ **[Equipment Advanced](https://github.com/shubham-parmar17/equipment-advanced)** | [One line on what it does] | `JavaScript` |
+| **[HeapScope](https://github.com/shubham-parmar17/heapscope)** | Interactive memory allocator lab with C++ allocators, WebAssembly benchmarks, and a React frontend | `C++` `WebAssembly` `React` `TypeScript` |
+| **[Portfolio](https://github.com/shubham-parmar17/portfolio)** | Personal developer portfolio | `JavaScript` |
+| **[Equipment Advanced](https://github.com/shubham-parmar17/equipment-advanced)** | [One line on what it does] | `JavaScript` |
 
-## 📫 Let's Connect
+## 📫 Get in Touch
 
-I'm open to internships, junior roles, and collaborations. The fastest way to reach me is [email](mailto:shubhamparmar713@gmail.com) or [LinkedIn](https://linkedin.com/in/shubham-parmar-7791932b8).
+I'm open to internships, entry-level roles, and collaborations. You can reach me by [email](mailto:shubhamparmar713@gmail.com) or on [LinkedIn](https://linkedin.com/in/shubham-parmar-7791932b8).
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=100&section=footer" alt="Footer" />
+<img src="assets/footer.svg" alt="" width="100%" />
