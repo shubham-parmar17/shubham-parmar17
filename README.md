@@ -1,26 +1,51 @@
-# Hi, I'm Shubham 👋
+<div align="center">
 
-I'm a frontend developer in the making, focused on building fast, well-designed web interfaces with React and TypeScript. I also enjoy going low-level with C++ and WebAssembly.
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=Shubham%20Parmar&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Frontend%20Developer%20%C2%B7%20React%20%26%20TypeScript&descAlignY=58&descSize=18" alt="Shubham Parmar banner" />
 
-- 🔭 Currently building: [your current project]
-- 🌱 Currently learning: [e.g. advanced React patterns, animation, accessibility]
-- 📫 Reach me: [shubhamparmar713@gmail.com](mailto:shubhamparmar713@gmail.com)
+<a href="https://github.com/shubham-parmar17">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=38BDF8&center=true&vCenter=true&width=620&lines=Frontend+developer+in+the+making;Building+fast+interfaces+with+React+%26+TypeScript;Exploring+C%2B%2B+%2B+WebAssembly+for+fun" alt="Typing animation" />
+</a>
 
-## Featured Projects
+<br/>
 
-- **[HeapScope](https://github.com/shubham-parmar17/heapscope)**: Interactive memory allocator lab with C++ allocators, WebAssembly benchmarks, and a React frontend.
-- **[Portfolio](https://github.com/shubham-parmar17/portfolio)**: My personal developer portfolio. [Live site](#)
-- **[Equipment Advanced](https://github.com/shubham-parmar17/equipment-advanced)**: [One line on what it does]
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/shubham-parmar-7791932b8)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:shubhamparmar713@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-38BDF8?style=for-the-badge&logo=vercel&logoColor=white)](#)
 
-## Tech Stack
+</div>
 
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![WebAssembly](https://img.shields.io/badge/WebAssembly-654FF0?style=for-the-badge&logo=webassembly&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+---
 
-## Connect
+## ⚡ About Me
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/shubham-parmar-7791932b8)
+```ts
+const shubham = {
+  role: "Frontend Developer (in progress)",
+  focus: ["React", "TypeScript", "Modern UI & Animation"],
+  currentlyBuilding: "[your current project]",
+  currentlyLearning: "[e.g. advanced React patterns, accessibility]",
+  funFact: "I write memory allocators in C++ for fun",
+};
+```
+
+## 🛠️ Tech Stack
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=js,ts,react,html,css,cpp,py,git,github,vscode&theme=dark" alt="Tech stack" />
+
+</div>
+
+## 🚀 Featured Projects
+
+| Project | What it is | Stack |
+| :-- | :-- | :-- |
+| 🧠 **[HeapScope](https://github.com/shubham-parmar17/heapscope)** | Interactive memory allocator lab with C++ allocators, WebAssembly benchmarks, and a React frontend | `C++` `WebAssembly` `React` `TypeScript` |
+| 🎨 **[Portfolio](https://github.com/shubham-parmar17/portfolio)** | My personal developer portfolio | `JavaScript` |
+| 🛠️ **[Equipment Advanced](https://github.com/shubham-parmar17/equipment-advanced)** | [One line on what it does] | `JavaScript` |
+
+## 📫 Let's Connect
+
+I'm open to internships, junior roles, and collaborations. The fastest way to reach me is [email](mailto:shubhamparmar713@gmail.com) or [LinkedIn](https://linkedin.com/in/shubham-parmar-7791932b8).
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=100&section=footer" alt="Footer" />
