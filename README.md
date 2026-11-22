@@ -21,7 +21,7 @@ I'm a problem solver who enjoys breaking complex problems into simple, efficient
 
 - 🎯 **Focus:** Algorithms, Data Structures, Problem Solving
 - 💻 **Languages:** C++, Python, JavaScript, TypeScript
-- 🌱 **Currently:** [e.g. Graphs, Dynamic Programming]
+- 🌱 **Currently:** Practicing data structures and algorithms in C++
 - 🌐 **Also exploring:** Web development with React
 
 <img src="assets/divider.svg" alt="" width="100%" />
@@ -36,28 +36,18 @@ I'm a problem solver who enjoys breaking complex problems into simple, efficient
 
 <img src="assets/divider.svg" alt="" width="100%" />
 
-## 🏆 Problem Solving
-
-| Platform | Profile | Progress |
-| :-- | :-- | :-- |
-| LeetCode | [your-profile](#) | [problems solved] |
-| Codeforces / CodeChef | [your-profile](#) | [rating, if any] |
-
-<img src="assets/divider.svg" alt="" width="100%" />
-
 ## 🚀 Featured Projects
 
 | Project | Description | Tech |
 | :-- | :-- | :-- |
 | **[HeapScope](https://github.com/shubham-parmar17/heapscope)** | Interactive memory allocator lab with C++ allocators, WebAssembly benchmarks, and a React frontend | `C++` `WebAssembly` `React` `TypeScript` |
 | **[Portfolio](https://github.com/shubham-parmar17/portfolio)** | Personal developer portfolio | `JavaScript` |
-| **[Equipment Advanced](https://github.com/shubham-parmar17/equipment-advanced)** | [One line on what it does] | `JavaScript` |
+
+<img src="assets/divider.svg" alt="" width="100%" />
 
 ## 🎬 Algorithms in Motion
 
 <img src="assets/algo.svg" alt="Animated binary search visualization" width="100%" />
-
-<img src="assets/divider.svg" alt="" width="100%" />
 
 <img src="assets/divider.svg" alt="" width="100%" />
 
