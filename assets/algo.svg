@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="270" viewBox="0 0 1200 270" role="img" aria-label="Animated binary search visualization">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#0b1220"/><stop offset="55%" stop-color="#13293d"/><stop offset="100%" stop-color="#1b4965"/></linearGradient>
+    <style>
+      .mono{font-family:'SFMono-Regular',Consolas,Menlo,'Courier New',monospace}
+      .val{font:700 24px 'SFMono-Regular',Consolas,Menlo,'Courier New',monospace}
+      .idx{font:400 13px 'SFMono-Regular',Consolas,Menlo,'Courier New',monospace;fill:#94a3b8}
+      .lbl{font:600 14px 'SFMono-Regular',Consolas,Menlo,'Courier New',monospace}
+      .cap{font:500 18px 'SFMono-Regular',Consolas,Menlo,'Courier New',monospace;fill:#e2f4ff}
+      @keyframes r0{0%{fill:#1b4965;stroke:#38bdf8}3%{fill:#1b4965;stroke:#38bdf8}32%{fill:#1b4965;stroke:#38bdf8}34%{fill:#0f1b2a;stroke:#334155}65%{fill:#0f1b2a;stroke:#334155}67%{fill:#0f1b2a;stroke:#334155}91%{fill:#0f1b2a;stroke:#334155}93%{fill:#1b4965;stroke:#38bdf8}100%{fill:#1b4965;stroke:#38bdf8}} @keyframes t0{0%{fill:#e2f4ff}3%{fill:#e2f4ff}32%{fill:#e2f4ff}34%{fill:#64748b}65%{fill:#64748b}67%{fill:#64748b}91%{fill:#64748b}93%{fill:#e2f4ff}100%{fill:#e2f4ff}}
+      .r0{animation:r0 12s infinite} .t0{animation:t0 12s infinite}
+      @keyframes r1{0%{fill:#1b4965;stroke:#38bdf8}3%{fill:#38bdf8;stroke:#7dd3fc}32%{fill:#38bdf8;stroke:#7dd3fc}34%{fill:#0f1b2a;stroke:#334155}65%{fill:#0f1b2a;stroke:#334155}67%{fill:#0f1b2a;stroke:#334155}91%{fill:#0f1b2a;stroke:#334155}93%{fill:#1b4965;stroke:#38bdf8}100%{fill:#1b4965;stroke:#38bdf8}} @keyframes t1{0%{fill:#e2f4ff}3%{fill:#0b1220}32%{fill:#0b1220}34%{fill:#64748b}65%{fill:#64748b}67%{fill:#64748b}91%{fill:#64748b}93%{fill:#e2f4ff}100%{fill:#e2f4ff}}
+      .r1{animation:r1 12s infinite} .t1{animation:t1 12s infinite}
+      @keyframes r2{0%{fill:#1b4965;stroke:#38bdf8}3%{fill:#1b4965;stroke:#38bdf8}32%{fill:#1b4965;stroke:#38bdf8}34%{fill:#1b4965;stroke:#38bdf8}65%{fill:#1b4965;stroke:#38bdf8}67%{fill:#22c55e;stroke:#86efac}91%{fill:#22c55e;stroke:#86efac}93%{fill:#1b4965;stroke:#38bdf8}100%{fill:#1b4965;stroke:#38bdf8}} @keyframes t2{0%{fill:#e2f4ff}3%{fill:#e2f4ff}32%{fill:#e2f4ff}34%{fill:#e2f4ff}65%{fill:#e2f4ff}67%{fill:#052e16}91%{fill:#052e16}93%{fill:#e2f4ff}100%{fill:#e2f4ff}}
+      .r2{animation:r2 12s infinite} .t2{animation:t2 12s infinite}
+      @keyframes r3{0%{fill:#1b4965;stroke:#38bdf8}3%{fill:#1b4965;stroke:#38bdf8}32%{fill:#1b4965;stroke:#38bdf8}34%{fill:#1b4965;stroke:#38bdf8}65%{fill:#1b4965;stroke:#38bdf8}67%{fill:#1b4965;stroke:#38bdf8}91%{fill:#1b4965;stroke:#38bdf8}93%{fill:#1b4965;stroke:#38bdf8}100%{fill:#1b4965;stroke:#38bdf8}} @keyframes t3{0%{fill:#e2f4ff}3%{fill:#e2f4ff}32%{fill:#e2f4ff}34%{fill:#e2f4ff}65%{fill:#e2f4ff}67%{fill:#e2f4ff}91%{fill:#e2f4ff}93%{fill:#e2f4ff}100%{fill:#e2f4ff}}
+      .r3{animation:r3 12s infinite} .t3{animation:t3 12s infinite}
+      @keyframes r4{0%{fill:#1b4965;stroke:#38bdf8}3%{fill:#1b4965;stroke:#38bdf8}32%{fill:#1b4965;stroke:#38bdf8}34%{fill:#38bdf8;stroke:#7dd3fc}65%{fill:#38bdf8;stroke:#7dd3fc}67%{fill:#0f1b2a;stroke:#334155}91%{fill:#0f1b2a;stroke:#334155}93%{fill:#1b4965;stroke:#38bdf8}100%{fill:#1b4965;stroke:#38bdf8}} @keyframes t4{0%{fill:#e2f4ff}3%{fill:#e2f4ff}32%{fill:#e2f4ff}34%{fill:#0b1220}65%{fill:#0b1220}67%{fill:#64748b}91%{fill:#64748b}93%{fill:#e2f4ff}100%{fill:#e2f4ff}}
+      .r4{animation:r4 12s infinite} .t4{animation:t4 12s infinite}
+      @keyframes r5{0%{fill:#1b4965;stroke:#38bdf8}3%{fill:#1b4965;stroke:#38bdf8}32%{fill:#1b4965;stroke:#38bdf8}34%{fill:#1b4965;stroke:#38bdf8}65%{fill:#1b4965;stroke:#38bdf8}67%{fill:#0f1b2a;stroke:#334155}91%{fill:#0f1b2a;stroke:#334155}93%{fill:#1b4965;stroke:#38bdf8}100%{fill:#1b4965;stroke:#38bdf8}} @keyframes t5{0%{fill:#e2f4ff}3%{fill:#e2f4ff}32%{fill:#e2f4ff}34%{fill:#e2f4ff}65%{fill:#e2f4ff}67%{fill:#64748b}91%{fill:#64748b}93%{fill:#e2f4ff}100%{fill:#e2f4ff}}
+      .r5{animation:r5 12s infinite} .t5{animation:t5 12s infinite}
+      @keyframes plow{0%{transform:translateX(240px);opacity:0}3%{transform:translateX(240px);opacity:1}32%{transform:translateX(240px)}34%{transform:translateX(640px)}65%{transform:translateX(640px)}67%{transform:translateX(640px)}91%{transform:translateX(640px);opacity:1}93%{transform:translateX(240px);opacity:0}100%{transform:translateX(240px);opacity:0}} .plow{animation:plow 12s ease-in-out infinite}
+      @keyframes phigh{0%{transform:translateX(960px);opacity:0}3%{transform:translateX(960px);opacity:1}32%{transform:translateX(960px)}34%{transform:translateX(960px)}65%{transform:translateX(960px)}67%{transform:translateX(720px)}91%{transform:translateX(720px);opacity:1}93%{transform:translateX(960px);opacity:0}100%{transform:translateX(960px);opacity:0}} .phigh{animation:phigh 12s ease-in-out infinite}
+      @keyframes pmid{0%{transform:translateX(560px);opacity:0}3%{transform:translateX(560px);opacity:1}32%{transform:translateX(560px)}34%{transform:translateX(800px)}65%{transform:translateX(800px)}67%{transform:translateX(640px)}91%{transform:translateX(640px);opacity:1}93%{transform:translateX(560px);opacity:0}100%{transform:translateX(560px);opacity:0}} .pmid{animation:pmid 12s ease-in-out infinite}
+      @keyframes cA{0%{opacity:0}2%{opacity:0}4%{opacity:1}30%{opacity:1}32%{opacity:0}100%{opacity:0}} .cA{animation:cA 12s infinite}
+      @keyframes cB{0%{opacity:0}33%{opacity:0}35%{opacity:1}63%{opacity:1}65%{opacity:0}100%{opacity:0}} .cB{animation:cB 12s infinite}
+      @keyframes cC{0%{opacity:0}66%{opacity:0}68%{opacity:1}89%{opacity:1}91%{opacity:0}100%{opacity:0}} .cC{animation:cC 12s infinite}
+    </style>
+  </defs>
+  <rect width="1200" height="270" rx="16" fill="url(#bg)"/>
+  <text x="40" y="44" class="mono" font-size="18" fill="#38bdf8">// binary_search(arr, target = 23)</text>
+  <text x="1160" y="44" text-anchor="end" class="mono" font-size="18" fill="#94a3b8">O(log n)</text>
+  <rect class="r0" x="205" y="100" width="70" height="64" rx="10" fill="#1b4965" stroke="#38bdf8" stroke-width="2"/>
+  <text class="val t0" x="240" y="141" text-anchor="middle" fill="#e2f4ff">2</text>
+  <text class="idx" x="240" y="182" text-anchor="middle">0</text>
+  <rect class="r0" x="285" y="100" width="70" height="64" rx="10" fill="#1b4965" stroke="#38bdf8" stroke-width="2"/>
+  <text class="val t0" x="320" y="141" text-anchor="middle" fill="#e2f4ff">5</text>
+  <text class="idx" x="320" y="182" text-anchor="middle">1</text>
+  <rect class="r0" x="365" y="100" width="70" height="64" rx="10" fill="#1b4965" stroke="#38bdf8" stroke-width="2"/>
+  <text class="val t0" x="400" y="141" text-anchor="middle" fill="#e2f4ff">8</text>
+  <text class="idx" x="400" y="182" text-anchor="middle">2</text>
+  <rect class="r0" x="445" y="100" width="70" height="64" rx="10" fill="#1b4965" stroke="#38bdf8" stroke-width="2"/>
+  <text class="val t0" x="480" y="141" text-anchor="middle" fill="#e2f4ff">12</text>
+  <text class="idx" x="480" y="182" text-anchor="middle">3</text>
+  <rect class="r1" x="525" y="100" width="70" height="64" rx="10" fill="#38bdf8" stroke="#7dd3fc" stroke-width="2"/>
+  <text class="val t1" x="560" y="141" text-anchor="middle" fill="#0b1220">16</text>
+  <text class="idx" x="560" y="182" text-anchor="middle">4</text>
+  <rect class="r2" x="605" y="100" width="70" height="64" rx="10" fill="#1b4965" stroke="#38bdf8" stroke-width="2"/>
+  <text class="val t2" x="640" y="141" text-anchor="middle" fill="#e2f4ff">23</text>
+  <text class="idx" x="640" y="182" text-anchor="middle">5</text>
+  <rect class="r3" x="685" y="100" width="70" height="64" rx="10" fill="#1b4965" stroke="#38bdf8" stroke-width="2"/>
+  <text class="val t3" x="720" y="141" text-anchor="middle" fill="#e2f4ff">38</text>
+  <text class="idx" x="720" y="182" text-anchor="middle">6</text>
+  <rect class="r4" x="765" y="100" width="70" height="64" rx="10" fill="#1b4965" stroke="#38bdf8" stroke-width="2"/>
+  <text class="val t4" x="800" y="141" text-anchor="middle" fill="#e2f4ff">56</text>
+  <text class="idx" x="800" y="182" text-anchor="middle">7</text>
+  <rect class="r5" x="845" y="100" width="70" height="64" rx="10" fill="#1b4965" stroke="#38bdf8" stroke-width="2"/>
+  <text class="val t5" x="880" y="141" text-anchor="middle" fill="#e2f4ff">72</text>
+  <text class="idx" x="880" y="182" text-anchor="middle">8</text>
+  <rect class="r5" x="925" y="100" width="70" height="64" rx="10" fill="#1b4965" stroke="#38bdf8" stroke-width="2"/>
+  <text class="val t5" x="960" y="141" text-anchor="middle" fill="#e2f4ff">91</text>
+  <text class="idx" x="960" y="182" text-anchor="middle">9</text>
+  <g class="pmid" transform="translate(560,0)"><text class="lbl" y="72" text-anchor="middle" fill="#38bdf8">mid</text><polygon points="-7,78 7,78 0,92" fill="#38bdf8"/></g>
+  <g class="plow" transform="translate(240,0)"><polygon points="0,192 -7,206 7,206" fill="#a78bfa"/><text class="lbl" y="226" text-anchor="middle" fill="#a78bfa">low</text></g>
+  <g class="phigh" transform="translate(960,0)"><polygon points="0,192 -7,206 7,206" fill="#f59e0b"/><text class="lbl" y="226" text-anchor="middle" fill="#f59e0b">high</text></g>
+  <text class="cap cA" x="600" y="256" text-anchor="middle">mid = arr[4] = 16  &lt;  23  →  search the right half</text>
+  <text class="cap cB" x="600" y="256" text-anchor="middle" opacity="0">mid = arr[7] = 56  &gt;  23  →  search the left half</text>
+  <text class="cap cC" x="600" y="256" text-anchor="middle" opacity="0" fill="#86efac">mid = arr[5] = 23  ==  target  ✓  found at index 5</text>
+</svg>
